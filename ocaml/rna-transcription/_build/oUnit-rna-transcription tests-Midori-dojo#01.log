@@ -1,9 +1,0 @@
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: Start test rna-transcription tests:0:transcribes empty list.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: Test rna-transcription tests:0:transcribes empty list is successful.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: End test rna-transcription tests:0:transcribes empty list.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: Start test rna-transcription tests:2:transcribes guanosine.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: Test rna-transcription tests:2:transcribes guanosine is successful.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: End test rna-transcription tests:2:transcribes guanosine.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: Start test rna-transcription tests:5:transcribes multiple.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: Test rna-transcription tests:5:transcribes multiple is successful.
-2018-10-01T17:40:50+00:00 Midori-dojo#01 I: End test rna-transcription tests:5:transcribes multiple.
