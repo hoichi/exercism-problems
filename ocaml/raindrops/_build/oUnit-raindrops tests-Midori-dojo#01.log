@@ -1,0 +1,27 @@
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:0:the sound for 1 is 1.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:0:the sound for 1 is 1 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:0:the sound for 1 is 1.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:3:the sound for 7 is Plong.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:3:the sound for 7 is Plong is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:3:the sound for 7 is Plong.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:5:2 to the power 3 does not make a raindrop sound as 3 is the exponent not the base.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:5:2 to the power 3 does not make a raindrop sound as 3 is the exponent not the base is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:5:2 to the power 3 does not make a raindrop sound as 3 is the exponent not the base.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:7:the sound for 10 is Plang as it has a factor 5.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:7:the sound for 10 is Plang as it has a factor 5 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:7:the sound for 10 is Plang as it has a factor 5.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:9:the sound for 15 is PlingPlang as it has factors 3 and 5.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:9:the sound for 15 is PlingPlang as it has factors 3 and 5 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:9:the sound for 15 is PlingPlang as it has factors 3 and 5.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:11:the sound for 25 is Plang as it has a factor 5.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:11:the sound for 25 is Plang as it has a factor 5 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:11:the sound for 25 is Plang as it has a factor 5.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:15:the sound for 52 is 52.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:15:the sound for 52 is 52 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:15:the sound for 52 is 52.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Start test raindrops tests:17:the sound for 3125 is Plang as it has a factor 5.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: Test raindrops tests:17:the sound for 3125 is Plang as it has a factor 5 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#01 I: End test raindrops tests:17:the sound for 3125 is Plang as it has a factor 5.

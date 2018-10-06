@@ -1,0 +1,30 @@
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:0:single bit one to decimal.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:0:single bit one to decimal is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:0:single bit one to decimal.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:3:binary to multiple decimal.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:3:binary to multiple decimal is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:3:binary to multiple decimal.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:4:decimal to binary.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:4:decimal to binary is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:4:decimal to binary.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:7:15-bit integer.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:7:15-bit integer is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:7:15-bit integer.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:8:empty list.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:8:empty list is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:8:empty list.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:10:multiple zeros.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:10:multiple zeros is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:10:multiple zeros.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:13:input base is zero.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:13:input base is zero is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:13:input base is zero.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:15:negative digit.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:15:negative digit is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:15:negative digit.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:17:output base is one.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:17:output base is one is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:17:output base is one.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Start test all-your-bases tests:19:output base is negative.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: Test all-your-bases tests:19:output base is negative is successful.
+2018-09-26T16:23:14+00:00 Midori-dojo#01 I: End test all-your-bases tests:19:output base is negative.

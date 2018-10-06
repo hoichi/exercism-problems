@@ -1,0 +1,121 @@
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Runner: processes
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Chooser: simple
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration suite_name = "pangram tests"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration cache_filename = "/home/hoichi/exercism/ocaml/pangram/_build/oUnit-$(suite_name).cache"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration display = "true"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration results_style_1_X = "false"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration verbose = "false"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration health_check_interval = "1."
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration testdata_dir = "none"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration chooser = "simple"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration output_html_dir = "none"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration processes_kill_period = "5."
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration runner = "processes"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration shards = "2"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration processes_grace_period = "5."
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration log_encoding = "utf-8"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration output_junit_file = "none"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Configuration output_file = "/home/hoichi/exercism/ocaml/pangram/_build/oUnit-$(suite_name)-$(shard_id).log"
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Using 2 workers maximum.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Starting worker number Midori-dojo#01.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Worker Midori-dojo#01 started.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Starting worker number Midori-dojo#02.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Worker Midori-dojo#02 started.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:1:recognizes a perfect lower case pangram, pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:1:recognizes a perfect lower case pangram.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:1:recognizes a perfect lower case pangram, pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:0:sentence empty is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:1:recognizes a perfect lower case pangram, pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:1:recognizes a perfect lower case pangram is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:1:recognizes a perfect lower case pangram, pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:1:recognizes a perfect lower case pangram.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:2:pangram with only lower case, pangram tests:1:recognizes a perfect lower case pangram.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:3:missing character 'x', pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:3:missing character 'x', pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:3:missing character 'x'.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:3:missing character 'x', pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:2:pangram with only lower case is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:3:missing character 'x', pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:3:missing character 'x', pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:3:missing character 'x' is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:4:another missing character, e.g. 'h', pangram tests:3:missing character 'x'.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:3:missing character 'x'.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:4:another missing character, e.g. 'h', pangram tests:3:missing character 'x'.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:5:pangram with underscores, pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:5:pangram with underscores, pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:4:another missing character, e.g. 'h' is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:5:pangram with underscores, pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:5:pangram with underscores, pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:6:pangram with numbers, pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:6:pangram with numbers, pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:5:pangram with underscores is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:6:pangram with numbers, pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:6:pangram with numbers, pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:7:missing letters replaced by numbers, pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:7:missing letters replaced by numbers, pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:6:pangram with numbers is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:7:missing letters replaced by numbers, pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:7:missing letters replaced by numbers, pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:8:pangram with mixed case and punctuation, pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:8:pangram with mixed case and punctuation, pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:7:missing letters replaced by numbers is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:8:pangram with mixed case and punctuation, pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:8:pangram with mixed case and punctuation, pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Still 2 tests running : pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Still 2 tests running : pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:8:pangram with mixed case and punctuation is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Still 2 tests running : pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Still 2 tests running : pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 2 tests running: pangram tests:9:upper and lower case versions of the same character should not be counted separately, pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Still 1 tests running : pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 1 tests running: pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:9:upper and lower case versions of the same character should not be counted separately is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Still 1 tests running : pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 1 tests running: pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Still 1 tests running : pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 1 tests running: pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: 0 tests running: .
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Worker Midori-dojo#01 has ended.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Worker Midori-dojo#02 has ended.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Used 2 worker during test execution.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Run 5 tests with shard Midori-dojo#01.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Run 5 tests with shard Midori-dojo#02.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: ==============
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Summary:
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:9:upper and lower case versions of the same character should not be counted separately is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:8:pangram with mixed case and punctuation is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:7:missing letters replaced by numbers is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:6:pangram with numbers is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:5:pangram with underscores is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:4:another missing character, e.g. 'h' is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:3:missing character 'x' is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:2:pangram with only lower case is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:1:recognizes a perfect lower case pangram is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Test pangram tests:0:sentence empty is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Ran: 10 tests in: 0.10 seconds.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Cases: 10.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Tried: 10.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Errors: 0.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Failures: 0.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Skip: 0.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Todo: 0.
+2018-09-24T07:12:40+00:00 Midori-dojo#00 I: Timeout: 0.

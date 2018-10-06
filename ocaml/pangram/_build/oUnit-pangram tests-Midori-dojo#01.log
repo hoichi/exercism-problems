@@ -1,0 +1,15 @@
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:0:sentence empty is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:0:sentence empty.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:2:pangram with only lower case is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:2:pangram with only lower case.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:4:another missing character, e.g. 'h' is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:4:another missing character, e.g. 'h'.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:6:pangram with numbers is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:6:pangram with numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Start test pangram tests:8:pangram with mixed case and punctuation.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: Test pangram tests:8:pangram with mixed case and punctuation is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#01 I: End test pangram tests:8:pangram with mixed case and punctuation.

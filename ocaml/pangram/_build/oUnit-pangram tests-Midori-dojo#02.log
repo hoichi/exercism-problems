@@ -1,0 +1,15 @@
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:1:recognizes a perfect lower case pangram.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:1:recognizes a perfect lower case pangram is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:1:recognizes a perfect lower case pangram.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:3:missing character 'x'.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:3:missing character 'x' is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:3:missing character 'x'.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:5:pangram with underscores is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:5:pangram with underscores.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:7:missing letters replaced by numbers is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:7:missing letters replaced by numbers.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Start test pangram tests:9:upper and lower case versions of the same character should not be counted separately.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: Test pangram tests:9:upper and lower case versions of the same character should not be counted separately is successful.
+2018-09-24T07:12:40+00:00 Midori-dojo#02 I: End test pangram tests:9:upper and lower case versions of the same character should not be counted separately.

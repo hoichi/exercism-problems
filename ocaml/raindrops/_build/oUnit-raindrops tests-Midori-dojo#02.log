@@ -1,0 +1,27 @@
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:1:the sound for 3 is Pling.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:1:the sound for 3 is Pling is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:1:the sound for 3 is Pling.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:2:the sound for 5 is Plang.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:2:the sound for 5 is Plang is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:2:the sound for 5 is Plang.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:4:the sound for 6 is Pling as it has a factor 3.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:4:the sound for 6 is Pling as it has a factor 3 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:4:the sound for 6 is Pling as it has a factor 3.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:6:the sound for 9 is Pling as it has a factor 3.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:6:the sound for 9 is Pling as it has a factor 3 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:6:the sound for 9 is Pling as it has a factor 3.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:8:the sound for 14 is Plong as it has a factor of 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:8:the sound for 14 is Plong as it has a factor of 7 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:8:the sound for 14 is Plong as it has a factor of 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:10:the sound for 21 is PlingPlong as it has factors 3 and 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:10:the sound for 21 is PlingPlong as it has factors 3 and 7 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:10:the sound for 21 is PlingPlong as it has factors 3 and 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:12:the sound for 27 is Pling as it has a factor 3.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:12:the sound for 27 is Pling as it has a factor 3 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:12:the sound for 27 is Pling as it has a factor 3.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:14:the sound for 49 is Plong as it has a factor 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:14:the sound for 49 is Plong as it has a factor 7 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:14:the sound for 49 is Plong as it has a factor 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Start test raindrops tests:16:the sound for 105 is PlingPlangPlong as it has factors 3, 5 and 7.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: Test raindrops tests:16:the sound for 105 is PlingPlangPlong as it has factors 3, 5 and 7 is successful.
+2018-09-29T13:58:39+00:00 Midori-dojo#02 I: End test raindrops tests:16:the sound for 105 is PlingPlangPlong as it has factors 3, 5 and 7.

@@ -1,0 +1,12 @@
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Start test acronym tests:0:basic.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Test acronym tests:0:basic is successful.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: End test acronym tests:0:basic.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Start test acronym tests:2:punctuation.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Test acronym tests:2:punctuation is successful.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: End test acronym tests:2:punctuation.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Start test acronym tests:5:very long abbreviation.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Test acronym tests:5:very long abbreviation is successful.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: End test acronym tests:5:very long abbreviation.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Start test acronym tests:6:consecutive delimiters.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: Test acronym tests:6:consecutive delimiters is successful.
+2018-09-25T13:59:24+00:00 Midori-dojo#01 I: End test acronym tests:6:consecutive delimiters.

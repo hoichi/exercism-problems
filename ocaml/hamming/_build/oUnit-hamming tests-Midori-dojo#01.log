@@ -1,0 +1,21 @@
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Start test hamming tests:0:empty strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Test hamming tests:0:empty strands is successful.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: End test hamming tests:0:empty strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Start test hamming tests:3:complete distance in single nucleotide strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Test hamming tests:3:complete distance in single nucleotide strands is successful.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: End test hamming tests:3:complete distance in single nucleotide strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Start test hamming tests:5:small distance in small strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Test hamming tests:5:small distance in small strands is successful.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: End test hamming tests:5:small distance in small strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Start test hamming tests:7:small distance in long strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Test hamming tests:7:small distance in long strands is successful.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: End test hamming tests:7:small distance in long strands.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Start test hamming tests:9:non-unique character in second strand.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Test hamming tests:9:non-unique character in second strand is successful.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: End test hamming tests:9:non-unique character in second strand.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Start test hamming tests:11:large distance.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Test hamming tests:11:large distance is successful.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: End test hamming tests:11:large distance.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Start test hamming tests:13:disallow first strand longer.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: Test hamming tests:13:disallow first strand longer is successful.
+2018-09-19T07:47:09+00:00 Midori-dojo#01 I: End test hamming tests:13:disallow first strand longer.

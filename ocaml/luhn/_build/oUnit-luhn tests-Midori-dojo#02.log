@@ -1,0 +1,21 @@
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Start test luhn tests:1:a single zero is invalid.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Test luhn tests:1:a single zero is invalid is successful.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: End test luhn tests:1:a single zero is invalid.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Start test luhn tests:3:a simple valid SIN that becomes invalid if reversed.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Test luhn tests:3:a simple valid SIN that becomes invalid if reversed is successful.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: End test luhn tests:3:a simple valid SIN that becomes invalid if reversed.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Start test luhn tests:6:invalid credit card.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Test luhn tests:6:invalid credit card is successful.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: End test luhn tests:6:invalid credit card.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Start test luhn tests:8:valid strings with punctuation included become invalid.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Test luhn tests:8:valid strings with punctuation included become invalid is successful.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: End test luhn tests:8:valid strings with punctuation included become invalid.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Start test luhn tests:9:valid strings with symbols included become invalid.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Test luhn tests:9:valid strings with symbols included become invalid is successful.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: End test luhn tests:9:valid strings with symbols included become invalid.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Start test luhn tests:12:input digit 9 is correctly converted to output digit 9.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Test luhn tests:12:input digit 9 is correctly converted to output digit 9 is successful.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: End test luhn tests:12:input digit 9 is correctly converted to output digit 9.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Start test luhn tests:13:strings with non-digits is invalid.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: Test luhn tests:13:strings with non-digits is invalid is successful.
+2018-10-01T14:50:14+00:00 Midori-dojo#02 I: End test luhn tests:13:strings with non-digits is invalid.

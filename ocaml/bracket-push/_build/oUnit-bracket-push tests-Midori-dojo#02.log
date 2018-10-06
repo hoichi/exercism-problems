@@ -1,0 +1,21 @@
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Start test bracket-push tests:1:empty string.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Test bracket-push tests:1:empty string is successful.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: End test bracket-push tests:1:empty string.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Start test bracket-push tests:4:wrong closing bracket.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Test bracket-push tests:4:wrong closing bracket is successful.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: End test bracket-push tests:4:wrong closing bracket.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Start test bracket-push tests:5:paired with whitespace.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Test bracket-push tests:5:paired with whitespace is successful.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: End test bracket-push tests:5:paired with whitespace.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Start test bracket-push tests:8:several paired brackets.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Test bracket-push tests:8:several paired brackets is successful.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: End test bracket-push tests:8:several paired brackets.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Start test bracket-push tests:10:unopened closing brackets.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Test bracket-push tests:10:unopened closing brackets is successful.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: End test bracket-push tests:10:unopened closing brackets.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Start test bracket-push tests:12:paired and wrong nested brackets.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Test bracket-push tests:12:paired and wrong nested brackets is successful.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: End test bracket-push tests:12:paired and wrong nested brackets.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Start test bracket-push tests:13:math expression.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: Test bracket-push tests:13:math expression is successful.
+2018-09-29T13:09:31+00:00 Midori-dojo#02 I: End test bracket-push tests:13:math expression.

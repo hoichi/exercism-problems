@@ -1,0 +1,10 @@
+2018-09-18T07:57:06+00:00 Midori-dojo#01 I: Start test leap tests:0:year not divisible by 4: common year.
+2018-09-18T07:57:06+00:00 Midori-dojo#01 I: Test leap tests:0:year not divisible by 4: common year is successful.
+2018-09-18T07:57:06+00:00 Midori-dojo#01 I: End test leap tests:0:year not divisible by 4: common year.
+2018-09-18T07:57:06+00:00 Midori-dojo#01 I: Start test leap tests:2:year divisible by 100, not divisible by 400: common year.
+2018-09-18T07:57:06+00:00 Midori-dojo#01 E: Test leap tests:2:year divisible by 100, not divisible by 400: common year has failed.
+2018-09-18T07:57:06+00:00 Midori-dojo#01 E: expected: false but got: true in test leap tests:2:year divisible by 100, not divisible by 400: common year.
+2018-09-18T07:57:06+00:00 Midori-dojo#01 E: Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+2018-09-18T07:57:06+00:00 Midori-dojo#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2018-09-18T07:57:06+00:00 Midori-dojo#01 E: 
+2018-09-18T07:57:06+00:00 Midori-dojo#01 I: End test leap tests:2:year divisible by 100, not divisible by 400: common year.
