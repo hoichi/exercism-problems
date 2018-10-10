@@ -1,17 +1,16 @@
 open Base
 
+let dlm = String.to_list " ,;.?!-—"
+
 (* Creates an acronym from a string. *)
 let acronym s =
-  let reducer (was_alpha, acro) c =
-    let is_alpha = Char.between ~low:'A' ~high:'z' c in
+  s
+  |> String.split_on_chars ~on:dlm
+  |> List.filter_map ~f:(fun s ->
+      match String.to_list s with
+      | hd::_ -> Some (Char.uppercase hd)
+      | [] -> None
+    )
+  |> String.of_char_list
 
-    let s = if (is_alpha && not was_alpha)
-      then String.(c |> of_char |> uppercase)
-      else "" in
-
-    (is_alpha, acro ^ s)
-
-  in
-    s
-    |> String.fold ~init:(false, "") ~f:reducer
-    |> (fun (_, acro) -> acro)
+(** todo: check if i need filter *)

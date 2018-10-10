@@ -1,15 +1,23 @@
 open Base
+open Container_intf
 
-let is_true_for_range (min, max) ~f =
-  let rec helper next max bool =
-    bool && (
-      next > max ||
-      helper (next + 1) max (f next)
-    )
-  in helper min max true;;
+
+let abc =
+  List.range ~stop:`inclusive (Char.to_int 'a') (Char.to_int 'z')
+  |> List.map ~f:Char.of_int_exn
+  |> Set.of_list (module Char)
+
+
+let tick_off_letter acc c =
+  let rmn = Set.remove acc (Char.lowercase c) in
+  Continue_or_stop.(
+    if Set.is_empty rmn then Stop ()
+    else Continue rmn
+  )
 
 let is_pangram s =
-  let s_n = String.lowercase s in
-  is_true_for_range
-    (Char.to_int 'a', Char.to_int 'z')
-    ~f:(fun c -> String.contains s_n (Char.of_int_exn c))
+  Finished_or_stopped_early.(
+    match String.fold_until s ~init:abc ~f:tick_off_letter with
+    | Stopped_early _ -> true
+    | Finished _ -> false
+  )
