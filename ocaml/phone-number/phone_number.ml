@@ -1,15 +1,24 @@
 open Base
 
-
-(*
-  q: is the set memoized or recreated on every call?
-  maybe make a perf test?
-*)
-let is_separator =
-  Set.mem @@ Set.of_list (module Char) ['+';' ';'(';')';'-';]
-
-let digits_of_string_exn s =
-  String.fold
+(** Extract all digits from a string, return a list of chars *)
+let extract_digits s =
+  String.to_list s
+  |> List.filter_map ~f:(fun c ->
+    let i = Char.to_int c in
+    Option.some_if (i >= Char.to_int '0' && i <= Char.to_int '9') c
+  )
 
 let number s =
-  None
+  extract_digits s
+
+  (* remove the country code *)
+  |> function | '1'::num | num -> num;
+
+  (* ensure we have exactly 10 correct digits *)
+  |> function
+    | '0'::_ | '1'::_ | _::_::_::'0'::_ | _::_::_::'1'::_ -> None 
+    | _::_::_::_::_::_::_::_::_::_::[] as l -> Some l
+    | _ -> None;
+
+  (* back to string *)
+  |> Option.map ~f:String.of_char_list
