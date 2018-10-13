@@ -1,54 +1,43 @@
 open Base
+(* open Base.Continue_or_stop
+open Base.Finished_or_stopped_early *)
 
-(** Left brackets *)
-let lefts = Set.of_list (module Char) ['(';'[';'{']
+type bracket =
+  | Left of char
+  | Right of char
+  | Neither
 
-(** Left matches for right brackets *)
-let pairs = Map.of_alist_exn (module Char) [
-  (']'),('[');
-  ('}'),('{');
-  (')'),('(');
+let brackets = [
+  '[',']';
+  '{','}';
+  '(',')';
 ]
 
-(** Checks if it the char is a left bracket. *)
-let is_left c =
-  Set.exists lefts ~f:(Char.(=) c)
+exception Right_bracket_mismatch
 
-(** Try to find the matching left pair *)
-let match_for_right r =
-  Map.find pairs r
+let bracket_type c =
+  let map_t2 (a, b) f = (f a, f b) in
+  let (lefts, rights) = map_t2
+    (List.unzip brackets)
+    (Set.of_list (module Char))
+  in
+  if Set.mem lefts c then Left c
+  else if Set.mem rights c then Right c
+  else Neither
 
-(** Pop the left bracket if it really is in the head position *)
-let pop_left stack c =
-  match stack with
-  | hd::tl when Char.(hd = c) -> Some tl
-  | _ -> None
+let brackets_match l r =
+  let matches = Map.of_alist_exn (module Char) brackets in
+  Char.(Map.find_exn matches l = r)
 
-(** Push left brackets.
-    Or pop them when a matching right one is found.
-      Fail on unmatched right brackets.
-    Ignore non-bracket characters. *)
-let push_or_pop stack c =
-  Container_intf.Continue_or_stop.(
-    if is_left c
-      then Continue (c::stack)
-      else
-        match match_for_right c with
-        | None -> Continue stack
-        | Some c ->
-          match pop_left stack c with
-          | Some tl -> Continue tl
-          | None -> Stop ()
-  )
+let push_or_pop_exn stack c =
+  match bracket_type c, stack with
+  | Neither, s -> s (* ignore *)
+  | Left l, s -> l::s (* push *)
+  | Right r, l::s when brackets_match l r -> s (* pop *)
+  | _ -> raise Right_bracket_mismatch
 
 (*  Go through the characters in the string.
     When done, check if some brackets are still open. *)
 let are_balanced s =
-  Container_intf.Finished_or_stopped_early.(
-    match String.fold_until s ~init:[] ~f:(push_or_pop) with
-    | Stopped_early () -> false
-    | Finished leftovers ->
-      match leftovers with
-      | _::_ -> false
-      | [] -> true
-  )
+  try String.fold s ~init:[] ~f:(push_or_pop_exn) |> List.is_empty with
+  | _ -> false
