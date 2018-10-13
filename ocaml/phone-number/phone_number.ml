@@ -16,8 +16,9 @@ let number s =
 
   (* ensure we have exactly 10 correct digits *)
   |> function
-    | '0'::_ | '1'::_ | _::_::_::'0'::_ | _::_::_::'1'::_ -> None 
-    | _::_::_::_::_::_::_::_::_::_::[] as l -> Some l
+    | '0'::_ | _::_::_::'0'::_
+    | '1'::_ | _::_::_::'1'::_ -> None 
+    | l when List.length l = 10 -> Some l
     | _ -> None;
 
   (* back to string *)
