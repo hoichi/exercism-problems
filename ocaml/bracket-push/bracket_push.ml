@@ -1,6 +1,4 @@
 open Base
-(* open Base.Continue_or_stop
-open Base.Finished_or_stopped_early *)
 
 type bracket =
   | Left of char
@@ -13,27 +11,29 @@ let brackets = [
   '(',')';
 ]
 
-exception Right_bracket_mismatch
+let map_t2 (a, b) f = (f a, f b)
 
-let bracket_type c =
-  let map_t2 (a, b) f = (f a, f b) in
+let bracket_type =
   let (lefts, rights) = map_t2
     (List.unzip brackets)
     (Set.of_list (module Char))
   in
-  if Set.mem lefts c then Left c
-  else if Set.mem rights c then Right c
-  else Neither
+  function
+  | c when Set.mem lefts c -> Left c
+  | c when Set.mem rights c -> Right c
+  | _ -> Neither
 
 let brackets_match l r =
   let matches = Map.of_alist_exn (module Char) brackets in
   Char.(Map.find_exn matches l = r)
 
+exception Right_bracket_mismatch
+
 let push_or_pop_exn stack c =
   match bracket_type c, stack with
-  | Neither, s -> s (* ignore *)
-  | Left l, s -> l::s (* push *)
-  | Right r, l::s when brackets_match l r -> s (* pop *)
+  | Neither, s -> s
+  | Left l, s -> l::s
+  | Right r, l::s when brackets_match l r -> s
   | _ -> raise Right_bracket_mismatch
 
 (*  Go through the characters in the string.

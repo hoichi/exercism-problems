@@ -16,9 +16,8 @@ let checksum_exn s =
   )
 
 let valid s =
-  let t = String.filter s ~f:(Fn.non @@ Char.(=) ' ') in
+  let t = String.filter s ~f:(Fn.non Char.is_whitespace) in
   if String.length t <= 1 then false
   else
     try (checksum_exn t) % 10 = 0 with
     | _ -> false
-

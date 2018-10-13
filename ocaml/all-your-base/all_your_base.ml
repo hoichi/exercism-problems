@@ -4,15 +4,12 @@ type base = int
 
 let number_to_digits base num =
   let rec append_digit list rem =
-    if rem <= 0
-      then list
-      else append_digit ((rem % base)::list) (rem / base)
+    if rem <= 0 then list
+    else append_digit ((rem % base)::list) (rem / base)
   in
-  let digits = append_digit [] num
-  in
-  match digits with
+  match append_digit [] num  with
   | [] -> [0]
-  | _::_ -> digits
+  | digits -> digits
 
 let digits_to_number base digits =
   let add_digit i acc d = Option.map2 acc d ~f:(
