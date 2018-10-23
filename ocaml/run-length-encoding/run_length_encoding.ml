@@ -1,30 +1,29 @@
 open Base
 
-let encode s =
-  let add_letter (s, count, c) =
-    s ^
-    match count with
-    | 0 -> ""
-    | 1 ->  String.of_char c
-    | n -> (Int.to_string n) ^ (String.of_char c)
-  in
-  s
-  |> String.fold
-      ~init:("", 0, '~')
-      ~f:(fun (res, cnt, prev) next ->
-          if Char.(next = prev)
-            then res, cnt + 1, prev
-            else add_letter (res, cnt, prev), 1, next
+let encode =
+  function
+  | "" -> ""
+  | s -> String.fold s
+      ~init:( [(s.[0], 0)] )
+      ~f:(fun acc next ->
+          match acc with
+          | (c, n)::tl when Char.(c = next) -> (c, n+1)::tl
+          | l -> (next, 1)::l
       )
-  |> add_letter
-  
+    |> List.rev
+    |> List.map
+      ~f:(fun (c, n) ->
+        (match n with | 1 -> "" | n -> Int.to_string n)
+        ^ String.of_char c
+      )
+    |> String.concat
+
 
 let decode s =
   let push_c s c = s ^ (String.of_char c) in
-  let gen_seq dgts c = 
-    match dgts with 
-      | "" -> String.of_char c
-      | s -> String.make (Int.of_string s) c
+  let gen_seq = function
+    | "" -> String.of_char
+    | s -> String.make (Int.of_string s)
   in
   s
     |> String.fold
