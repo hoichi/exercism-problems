@@ -1,0 +1,17 @@
+B /home/hoichi/.opam/4.06.0/lib/base
+B /home/hoichi/.opam/4.06.0/lib/base/caml
+B /home/hoichi/.opam/4.06.0/lib/base/shadow_stdlib
+B /home/hoichi/.opam/4.06.0/lib/bytes
+B /home/hoichi/.opam/4.06.0/lib/oUnit
+B /home/hoichi/.opam/4.06.0/lib/ocaml
+B /home/hoichi/.opam/4.06.0/lib/sexplib0
+B _build/default/.test.eobjs
+S /home/hoichi/.opam/4.06.0/lib/base
+S /home/hoichi/.opam/4.06.0/lib/base/caml
+S /home/hoichi/.opam/4.06.0/lib/base/shadow_stdlib
+S /home/hoichi/.opam/4.06.0/lib/bytes
+S /home/hoichi/.opam/4.06.0/lib/oUnit
+S /home/hoichi/.opam/4.06.0/lib/ocaml
+S /home/hoichi/.opam/4.06.0/lib/sexplib0
+S .
+FLG -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs

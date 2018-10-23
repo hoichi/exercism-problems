@@ -5,13 +5,6 @@ let check_nucleotide c =
   | 'A' | 'C' | 'G' | 'T' -> Ok c
   | _ -> Error c
 
-let bump_count m k =
-  let cnt =
-    Map.find m k
-    |> Option.value ~default:0
-  in
-  Map.set m ~key:k ~data:(cnt + 1)
-
 let count_nucleotide dna q =
   let open Result in
   check_nucleotide q >>= fun nucl ->
@@ -30,5 +23,7 @@ let count_nucleotides =
     ~init:(Map.empty (module Char))
     ~f:(fun counts c ->
       check_nucleotide c
-      >>| bump_count counts
+      >>| Map.update
+            counts
+            ~f:(function | Some n -> n + 1 | _ -> 1)
     )
