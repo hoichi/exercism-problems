@@ -62,4 +62,4 @@ let unique_name_tests = [
 ]
 
 let () =
-  run_test_tt_main ("robot-name tests" >::: List.concat [basic_tests (* ; unique_name_tests *)])
+  run_test_tt_main ("robot-name tests" >::: List.concat [basic_tests ; unique_name_tests])
