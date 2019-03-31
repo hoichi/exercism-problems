@@ -19,7 +19,8 @@ module type CUSTOM_SET = sig
   val union : t -> t -> t
 end
 
-module Make(Ord: COMPARABLE) = struct
+module Make(Ord : COMPARABLE)
+  : (CUSTOM_SET with type elt = Ord.t) = struct
   open Base
 
   type elt = Ord.t
