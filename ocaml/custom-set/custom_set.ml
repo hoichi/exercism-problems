@@ -27,7 +27,7 @@ module Make(Ord : COMPARABLE)
   type t = Empty | Node of { l: t; r: t; v: elt }
 
 
-  (* helpers *)
+  (* HELPERS *)
 
   let cmp = Ord.compare
 
@@ -37,15 +37,26 @@ module Make(Ord : COMPARABLE)
 
   let new_node el = Node { l = Empty; r = Empty; v = el; }
 
-  let rec fold t ~f ~init =
-    match t with
-    | Empty -> init
-    | Node {l; r; v} ->
-      let acc_1 = f init v in
-      let acc_2 = fold l ~f ~init:acc_1 in
-      fold r ~f ~init:acc_2
 
-  (* the interface *)
+  (*  Using CPS for tail optimization (using heap instead of stack).
+      It’s not practical for the tests’ sizes, but what the heck.
+      Also, I should get to grokking the deeper suff some day:
+      https://stackoverflow.com/a/9323417/2658546
+  *)
+  let fold t ~f ~init =
+    let rec fold_ ~t ~init cont =
+      match t with
+      | Empty -> cont init
+      | Node {l; r; v} ->
+        let seed = f init v in
+        fold_ ~t:l ~init:seed (fun res_l ->
+          fold_ ~t:r ~init:res_l cont
+        )
+    in fold_ ~t ~init Fn.id
+
+  (* THE INTERFACE *)
+
+  (* That is not a balanced tree, but it’s my first, so どうぞ　よろしく *)
   let rec add s el =
     match s with
       | Empty -> new_node el
